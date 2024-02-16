@@ -1,0 +1,47 @@
+body {
+  background-image: url(/images/image4.jpeg);
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+.logo {
+  float: left;
+  margin:0;
+}
+
+.clearfix::before {
+  content: "";
+  clear: both;
+  display: table;
+  z-index: 1;
+}
+.clearfix {
+  background-color: red;
+  display:inline-block;
+  width: 100%;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 1px;
+    padding: 0;
+    overflow: auto;
+    background-color: #333;
+   box-sizing: border-box;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
